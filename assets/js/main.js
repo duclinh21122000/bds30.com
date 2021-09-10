@@ -132,6 +132,33 @@ jQuery(document).ready(function () {
             }
         ]
     });
+
+
+     // slide
+     $('.img-slide').slick({
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+      });
+    
+    //   tab about-product
+    $(".tab-info").click(function(){
+      var tabID = $(this).attr('data-tab');
+      $(this).addClass('show').siblings().removeClass('show');
+        $('#tab-'+tabID).slideToggle();
+      });
+
+    //   tab-content-apartment
+      $('.item-service').click( function() {
+	
+        var tabID = $(this).attr('data-tab');
+        
+
+        $(this).addClass('active').siblings().removeClass('active');
+        $('#tab-'+tabID).addClass('active').siblings().removeClass('active');
+      });
+
 });
 
 
