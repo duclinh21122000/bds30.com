@@ -2240,6 +2240,466 @@ html.overscoll {
 
 /* End Contact */
 
+/* HUY DỰ ÁN */
+
+/* Project-highligh */
+.project-highligh{
+    padding-bottom: 20px;
+  }
+  
+  .title-pro{
+    font-size: 24px;
+    color: #242933;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .item-pro-highligh{
+    border-radius: 10px;
+  }
+  
+  .project-highligh .item-pro-highligh .img-pro{
+    height: 200px;
+  }
+  
+  .item-pro-highligh img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .info-list-pro{
+    padding: 14px 12px 10px;
+  }
+  
+  .info-list-pro .title-price-pro{
+    color: #fa7821;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+   .info-list-pro .title-price-pro .apartment-name{
+    color: #242933;
+    font-weight: 700;
+  }
+  
+  .apartment-name{
+    color: #242933;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .box-address{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .info-pro{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #2d3339;
+  }
+  
+  
+  
+  /* slide */
+  .slide-pro {
+    padding-top: 20px;
+  }
+  
+  .slide-pro .img-slide .img-slider{
+    height: 400px;
+  }
+  
+  .slide-pro .img-slide .img-slider img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* detail-product */
+  .about-product{
+    scroll-behavior: smooth;
+  }
+  
+  .about-product .menu-content{
+    position: sticky;
+  }
+  
+  .about-product .product-menu-list{
+    display: flex;
+    margin-bottom: 14px;
+  }
+  
+  .about-product .product-menu-list .pro-link{
+    margin-right: 9px;
+    font-weight: 700;
+  }
+  
+  .bds a{
+    color: #ef7733;
+  }
+  
+  .about-product .product-menu-list .pro-link:hover{
+    color: #ec600f;
+    border-color: #ec600f; 
+    text-decoration: underline;
+  }
+  
+  .about-product .dash-line{
+    border-bottom: 1px inset darkgray;
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  
+  .tab-content{
+    display: none;
+  }
+  
+  .tab-info{
+    padding: 15px 0;
+  }
+  
+  .tab-title{
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #242933;
+    margin-bottom: 10px;
+  }
+  
+  .info-pro span{
+    font-weight: 700;
+    margin-right: 4px;
+  
+  }
+  
+  .tab-info .title{
+    display: flex;
+    line-height: 2;
+  }
+  
+  /* boxwidget */
+  .overview{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  /* .box-collapse .tab-title .triagle .arrow-up{
+    transform: rotate(
+      0deg);
+  }
+  
+  .box-collapse .tab-title .triagle .arrow-up.show{
+    transform: rotate(
+      180deg);
+  } */
+  
+  .tab-content-info{
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 18px;
+    display: none;
+  }
+  
+  .tab-content-info p{
+    margin-bottom: 11px;
+    font-family:Arial;
+    color:#000000;
+    font-size:10pt;
+  }
+  
+  
+  .list-description{
+    color: #000000;
+    font-size: 10pt;
+    font-family: Roboto,sans-serif;
+    margin-bottom: 5px;
+    list-style: disc;
+  }
+  
+  .boxwidget .tab-content-info li{
+    color: #000000;
+    list-style: disc;
+    text-align: justify;
+    margin: 10px;
+  }
+  
+  /* pro-location */
+  .location{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .pro-location .box-collapse .tab-content-info ul {
+    margin-left: 20px;
+  }
+  
+  /* Utilities */
+  .tab-uti{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .widget-utilities ul{
+    margin-left: 25px;
+    column-count: 3;
+    column-gap: 10px;
+    text-align: start;
+  }
+  
+  .widget-utilities ul li{
+    margin-bottom: 15px;
+    color: #2750cf;
+    list-style: disc;
+    text-align: justify;
+    margin: 10px;
+  }
+  
+  .widget-utilities ul li span{
+    display: inline-block;
+    color: #333;
+    vertical-align: top;
+    font-size: 14px;
+    text-align: start;
+  }
+  
+  
+  /* galery */
+  
+  
+  .galery .tab-content-info .pro-image{
+    margin: 2px 0 15px;
+    position: relative;
+  }
+  
+  .galery .tab-content-info .panorama-photo{
+    height: 250px;
+  }
+  
+  .galery .tab-content-info .panorama-photo img{
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .galery .tab-content-info .panorama-photo-mini {
+    height: 200px;
+  }
+  
+  .galery .tab-content-info .panorama-photo-mini img{
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .galery .tab-content-info .pro-image .info-img{
+    background: rgba(74,74,74,.8);
+    border-radius: 4px;
+    padding: 7px 37px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+  }
+  
+  /* design */
+  .design .tab-des{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .design .box-collapse .img-drawing img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* buiding */
+  .building .tab-buil{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .building .tab-content-info .item-building{
+    border-radius: 4px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+  }
+  
+  .building .tab-content-info .item-building .buil-img {
+    height: 140px;
+  }
+  
+  .building .tab-content-info .item-building .buil-img img{
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .building .tab-content-info .item-building .info-building{
+    padding: 12px 17px 3px;
+  }
+  
+  .building .info-building .p-title{
+    font-weight: 700;
+  }
+  
+  .building .info-building .info-detail{
+    color: #000;
+    font-size: 12px;
+  }
+  
+  .building .info-building .info-detail li{
+    padding-bottom: 8px;
+  }
+  
+  apartment
+  .apartment{
+    padding-bottom: 20px;
+  }
+  
+  .apartment .box-collapse .tab-info-apr .tab-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .apartment .box-collapse .tab-info-apr .tab-menu .tab-content-menu{
+    display: flex;
+    align-items: center;
+  }
+  
+  .tab-content-menu .item-service{
+    margin-right: 10px;
+    font-size: 16px;
+    letter-spacing: -.32px;
+  }
+  
+  .tab-content-menu .item-service:hover{
+    color: #555;
+    border-color: #ec600f; 
+    text-decoration: underline;
+  
+  }
+  
+  .apartment .box-collapse .tab-info-apr .tab-menu .btn-view{
+    background: #fff;
+    border: 1px solid #0d58ac;
+    border-radius: 4px;
+    text-transform: none;
+    padding: 10px;
+    min-width: 123px;
+    text-align: center;
+  }
+  
+  .tab-menu .btn-view .btn-allview{
+    color: #155aa9;
+    letter-spacing: -.32px;
+    font-weight: 500;
+  }
+  
+  .item-pro-highligh .info-product .info-listing{
+    color: #242933;
+    font-weight: 700;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .apartment .info-list-pro .inf-details .box-info-apartment{
+    display: flex;
+  }
+  
+  .apartment .info-list-pro .inf-details .box-info-apartment .info-apartment{
+    margin-right: 10px;
+  
+  }
+  
+  .item-pro-highligh .image-box{
+    overflow: hidden;
+  }
+  
+  .item-pro-highligh .image-box .img-pro {
+    position: relative;
+    height: 200px;
+  }
+  
+  .apartment .item-pro-highligh .image-box img:hover{
+    -webkit-transform: scale(1.5,1.5);
+    -ms-transform: scale(2,4);
+    -o-transform: scale(2,4);
+    -moz-transform: scale(2,4);
+    transform: scale(1.5,1.5);
+  }
+  
+  .apartment .item-pro-highligh .image-box .img-pro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: -webkit-transform 3.5s ease-in-out;
+    transition: transform 3.5s ease-in-out;
+    transition: transform 3.5s ease-in-out,-webkit-transform 3.5s ease-in-out;
+  } 
+  
+  .apartment .item-pro-highligh .image-box .img-pro::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url(/assets/images/heart.png) ;
+    right: 4px;
+  }
+  
+  .apartment .info-list-pro .inf-details .link-apar{
+    font-size: 14px;
+    line-height: 16px;
+    color: #155aa9;
+    padding-top: 4px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .tab-content-transaction{
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin-bottom: unset !important;
+  }
+  
+  .tab-content-transaction.active{
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+  }
+  .purchase .box-lease{
+    display: none;
+  } 
+  
+   .purchase.active .box-lease{
+    display: block;
+  } 
+  
+  
+  /* neighboring projects */
+  
+  .neighboring-projects .list-item .image-box .img-pro{
+    height: 220px;
+  }
+
 
 /* Footer */
 
@@ -2351,7 +2811,14 @@ html.overscoll {
 
 @media (max-width: 1399px) {}
 
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+    .overview {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+      }
+    
+}
 
 @media (max-width: 991px) {
     .header .header-top-bar .header-top-wrapper {
@@ -2384,6 +2851,16 @@ html.overscoll {
     }
     .contact .box-content {
         margin-bottom: 24px;
+    }
+
+    .slide-pro .img-slide .img-slider {
+        height: 150px;
+      }
+      
+    .overview {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 }
 
@@ -2502,6 +2979,36 @@ html.overscoll {
     .location .box-map iframe {
         height: 300px;
     }
+
+    .about-product .product-menu-list {
+        flex-wrap: wrap;
+    }
+
+    .about-product .dash-line {
+        border-bottom: 1px inset darkgray;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tab-info .title {
+        display: flow-root;
+    }
+
+    .tab-content-info {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 18px;
+        display: none;
+    }
+
+    .item-pro-highligh{
+        margin-bottom: 15px;
+    }
+
+    .apartment .info-list-pro .inf-details .box-info-apartment .info-apartment {
+        margin-right: 10px;
+    }
+    
     .footer .widget {
         margin-bottom: 24px;
     }
